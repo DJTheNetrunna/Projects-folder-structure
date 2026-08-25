@@ -1,0 +1,32 @@
+# Generated security evidence
+reports/
+*.log
+*.pcap
+*.pcapng
+
+# Screenshots and incident artifacts
+screenshot*.png
+incident-*/
+evidence-*/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.token
+secrets/
+private/
+
+# Editor / OS noise
+.vscode/
+.idea/
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
